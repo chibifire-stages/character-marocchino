@@ -5,6 +5,8 @@ Free original 3D model 「Marocchino」 under the Apache-2.0 licence, with its h
 - `Marocchino.blend`, `MarocchinoLP.fbx` and `Textures/` come from the original download, unchanged.
 - `usd/Marocchino.usda` and `usd/textures/` are an OpenUSD copy of `Marocchino.blend`, made with Blender
   5.2.1 and changed on the way. `CITATION.cff` states each change and the export options.
+- `Marocchino.wardrobe.tsv` names the meshes a garment drawn with the pen hides (`replaced`) or is
+  worn under (`over`). It is the maintainers' data, not the author's.
 - The original download also has the Unity package (227 MB) and layered PSD sources. They are not
   here, because both exceed the 100 MB per-file limit.
 - `LICENSE` is the Apache-2.0 text the author ships. `readme/` holds the author's own licence
