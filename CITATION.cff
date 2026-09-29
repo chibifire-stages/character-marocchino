@@ -37,6 +37,16 @@ abstract: >-
   (KEKey.000, KEKey.009).
 
 
+  EXPORTER NAMING AND SHAPE VALUES: a USD name holds only letters, digits and "_", so the exporter
+  spells every other character as "_". This changes 57 of the 105 joint names (Upper_leg.L becomes
+  Upper_leg_L) and 25 more blend shape names on Body, the fifteen viseme shapes among them (each of
+  their names holds a "."). The shape key values the .blend sets on Maro.Ms.Body.VRC
+  (clothes_underwear, clothes_bra and clothes_stockings, each at 1) go to the SkelAnimation
+  /Marocchino/Armature/Armature/Anim, which the skeleton does not bind, so a USD reader shows these
+  three shapes at 0: 4333 vertices sit up to 60.1 mm from the .blend's look, 2076 of them on the
+  legs, and the band at the top of each stocking does not show.
+
+
   EXPORT OPTIONS (bpy.ops.wm.usd_export, every other option at its default): filepath=Marocchino.usda,
   check_existing=False, selected_objects_only=True, export_animation=False, export_hair=False,
   export_uvmaps=True, rename_uvmaps=True, export_mesh_colors=True, export_normals=True,
