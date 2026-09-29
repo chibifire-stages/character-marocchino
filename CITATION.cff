@@ -63,6 +63,16 @@ abstract: >-
   Two exports of the same .blend write the same prims and values in a different prim order.
 
 
+  DELIVERY COPY: usd/Marocchino.usdz is usd/Marocchino.usda and the nine images it names, as one
+  file, for a reader handed a single package that cannot open usd/textures/ beside a .usda. It holds
+  Marocchino.usdc, the .usda's layer written as a USDC crate by OpenUSD 26.8 (usd-core,
+  Sdf.Layer.Export), and then the nine images byte for byte, stored uncompressed and 64-byte aligned
+  by Sdf.ZipFileWriter, each entry dated 1980-01-01 so that the same inputs give the same bytes. The
+  asset paths stay as written (./textures/<file>) and resolve inside the package. The .usda stays
+  the source; the .usdz is made from it with tools/avatar_usdz.py pack in
+  V-Sekai-fire/interactor-dress-on.
+
+
   ADDED FILES: Marocchino.wardrobe.tsv is the repository maintainers' data, not the author's. It
   gives a layer to meshes of Marocchino.fbx, named as the FBX names its nodes: replaced (hidden while
   a garment drawn with the pen is worn; the sweater, whose hem falls below the waist) and over (worn
