@@ -1,0 +1,16 @@
+(PC)
+1. Make a Unity Project
+2. Import VRC SDK
+3. Import Dynamic Bones (optional)
+4. Import Marocchino.unitypackage
+5. Open Scene Assets/CaféMohka/Marocchino/MarocchinoScene.unity
+5a. In the middle you find a Maro version with all Meshes on her.
+5b. She has shapekeys for her face and her body to hide certain body parts to ensure nothing is clipping.
+6. Pick a model from under "Upload Ready" section.
+7. Hit Upload on the VRC SDK Panel.
+8. Have fun!
+
+
+(Quest/Fallback)
+1. The Models in the Scene with the postfix "Quest" have the correct Quest compatible shaders applied. You may import those into your Android Project.
+2. Follow: https://docs.vrchat.com/docs/avatar-fallback-system 

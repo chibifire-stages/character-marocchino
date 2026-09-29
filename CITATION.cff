@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: If you use this model, credit its author and keep the licence file with it.
+title: Marocchino (free original 3D model)
+type: dataset
+authors:
+  - name: Mohka Noir
+license: Apache-2.0
+date-released: 2022-04-02
+notes: >-
+  Redistributed unmodified under the author's Apache-2.0 licence (readme/Readme-LicenseText-Full(EN).txt).
+  The author's summary (readme/Readme-SimpleLicense(EN-JP).txt) allows redistribution, derivative
+  versions, re-upload and revenue, on condition that the original source is credited or the licence
+  file is included, and prohibits use for slander or in offensive contexts.
